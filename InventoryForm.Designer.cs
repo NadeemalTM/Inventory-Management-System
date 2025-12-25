@@ -224,7 +224,7 @@ namespace InventoryManagementSystem
             this.lblTotalValueAmount.Name = "lblTotalValueAmount";
             this.lblTotalValueAmount.Size = new System.Drawing.Size(260, 32);
             this.lblTotalValueAmount.TabIndex = 1;
-            this.lblTotalValueAmount.Text = "$0.00";
+            this.lblTotalValueAmount.Text = "Rs. 0.00";
             // 
             // lblTotalValue
             // 

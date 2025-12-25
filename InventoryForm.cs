@@ -126,7 +126,8 @@ namespace InventoryManagementSystem
                         // Format DataGridView
                         if (dataGridViewInventory.Columns.Count > 0)
                         {
-                            dataGridViewInventory.Columns["UnitPrice"].DefaultCellStyle.Format = "C2";
+                            dataGridViewInventory.Columns["UnitPrice"].DefaultCellStyle.Format = "N2";
+                            dataGridViewInventory.Columns["UnitPrice"].HeaderText = "Unit Price (Rs.)";
                             dataGridViewInventory.Columns["DateAdded"].DefaultCellStyle.Format = "yyyy-MM-dd";
                             
                             // Color code low stock items
@@ -215,7 +216,7 @@ namespace InventoryManagementSystem
                     using (SqlCommand cmd = new SqlCommand(queryTotalValue, conn))
                     {
                         decimal totalValue = Convert.ToDecimal(cmd.ExecuteScalar());
-                        lblTotalValueAmount.Text = totalValue.ToString("C2");
+                        lblTotalValueAmount.Text = "Rs. " + totalValue.ToString("N2");
                     }
                     
                     // Total Categories
