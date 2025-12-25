@@ -1,14 +1,22 @@
 # Inventory Management System - C# Windows Forms Application
 
 ## Project Overview
-This is a complete Windows Forms Application for Inventory Management built using C#, .NET Framework, and Microsoft SQL Server. Version 2.0 features a completely redesigned modern UI with enhanced user experience.
+This is a complete Windows Forms Application for Inventory Management built using C#, .NET Framework, and Microsoft SQL Server. Version 2.1 features a stunning colorful dark theme with vibrant accents and modern professional appearance.
 
-## Version 2.0 Highlights ✨
-- **Modern Login Page**: Completely redesigned with two-panel layout, show/hide password, remember me option
-- **Enhanced Dashboard**: Real-time statistics, low stock alerts, color-coded inventory
+## Version 2.1 - Colorful Dark Theme 🌙
+- **🎨 Stunning Dark UI**: Deep navy backgrounds with vibrant neon accents
+- **✨ Vibrant Colors**: Purple, Blue, Pink, Green, and Yellow highlights
+- **🌟 Modern Aesthetic**: Gaming/tech-inspired professional look
+- **👁️ Reduced Eye Strain**: Perfect for long work sessions
+- **🎯 Color-Coded Actions**: Each button has distinct vibrant color
+- **📊 Dark DataGridView**: Sleek table with high-contrast text
+
+## Previous Features (v2.0)
+- **Modern Login Page**: Two-panel layout with show/hide password, remember me
+- **Enhanced Dashboard**: Real-time statistics with colorful cards
 - **Advanced Search**: Multi-field filtering with instant results
 - **CSV Export**: Export inventory data with timestamp
-- **Professional UI**: Flat design with modern color scheme and hover effects
+- **Professional UI**: Flat design with hover effects
 
 ## Technical Stack
 - **Language**: C# (.NET Framework 4.7.2)
@@ -17,33 +25,41 @@ This is a complete Windows Forms Application for Inventory Management built usin
 - **IDE**: Visual Studio / Command Line Compiler
 - **Database Management**: SQL Server Management Studio (SSMS)
 - **Version Control**: Git/GitHub
+- **Theme**: Custom Colorful Dark Theme
 
 ## Features
 
-### 1. Modern Login System 🔐
-- **Two-Panel Design**: Blue welcome panel with white login panel
-- **Custom Logo**: Animated circular gradient logo (IMS badge)
+### 1. Modern Login System 🔐 (Dark Theme)
+- **Two-Panel Design**: Dark purple panel with deep navy login panel
+- **Custom Logo**: Purple-to-green gradient circular logo (IMS badge)
 - **Show/Hide Password**: Toggle button with eye/hide icons (👁/🙈)
 - **Remember Me**: Checkbox for user convenience
 - **Forgot Password**: Link with admin contact information
 - **Secure Authentication**: SQL Server database validation
-- **Hover Effects**: Interactive buttons with smooth transitions
+- **Hover Effects**: Interactive buttons with smooth color transitions
+- **Dark Theme**: Deep navy `#12121C` with purple accents `#BB86FC`
 - **Borderless Form**: Modern 900x600px design
 - Default Admin credentials: Username = `Admin`, Password = `StockUser123`
 
-### 2. Inventory Management Dashboard 📊
-- **Real-time Statistics**:
-  - Total Items count
-  - Low Stock Alerts (items with quantity ≤ 10)
-  - Total Inventory Value calculation
-  - Unique Categories count
-- **Color-coded Display**: Low stock items highlighted in red
-- **Status Bar**: Live clock and operation messages
+### 2. Inventory Management Dashboard 📊 (Dark Theme)
+- **Colorful Dashboard Cards**:
+  - 🔵 **Total Items**: Electric Blue `#3A86FF`
+  - 🔴 **Low Stock Alerts**: Hot Pink `#EF476F`
+  - 🟢 **Total Value**: Cyber Green `#06D6A0`
+  - 🟣 **Categories**: Neon Purple `#BB86FC`
+- **Dark DataGridView**: Dark purple background with light text and blue headers
+- **Low Stock Highlighting**: Pink text on dark maroon background
+- **Status Bar**: Dark with cyan time display
 - **CRUD Operations**: Create, Read, Update, Delete inventory records
-- **Advanced Search**: Multi-field filtering (ItemCode, ItemName, Category, Supplier)
+- **Advanced Search**: Multi-field filtering with dark themed search box
 - **CSV Export**: Export filtered data with timestamp
 - **Input Validation**: Comprehensive validation for all input fields
-- **Tooltips**: Helpful hints on all action buttons
+- **Colorful Action Buttons**:
+  - ✅ **Register**: Cyber Green
+  - 🔄 **Update**: Electric Blue
+  - ❌ **Delete**: Hot Pink
+  - 🗑️ **Clear**: Bright Yellow with dark text
+- **Dark Form**: Deep navy background `#12121C` throughout
 
 ## Database Schema
 
