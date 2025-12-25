@@ -19,6 +19,66 @@ namespace InventoryManagementSystem
             InitializeComponent();
             SetupToolTips();
             SetupStatusTimer();
+            SetupDarkTheme();
+        }
+
+        private void SetupDarkTheme()
+        {
+            // DataGridView Dark Theme
+            dataGridViewInventory.BackgroundColor = System.Drawing.Color.FromArgb(30, 30, 46);
+            dataGridViewInventory.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(30, 30, 46);
+            dataGridViewInventory.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+            dataGridViewInventory.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(58, 134, 255);
+            dataGridViewInventory.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewInventory.ColumnHeadersDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(18, 18, 28);
+            dataGridViewInventory.ColumnHeadersDefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(138, 180, 248);
+            dataGridViewInventory.ColumnHeadersDefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(18, 18, 28);
+            dataGridViewInventory.AlternatingRowsDefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(24, 24, 38);
+            dataGridViewInventory.GridColor = System.Drawing.Color.FromArgb(58, 58, 94);
+            dataGridViewInventory.EnableHeadersVisualStyles = false;
+
+            // StatusStrip Dark Theme
+            statusStrip.BackColor = System.Drawing.Color.FromArgb(18, 18, 28);
+            statusStrip.ForeColor = System.Drawing.Color.FromArgb(176, 190, 197);
+            toolStripStatusLabel.ForeColor = System.Drawing.Color.FromArgb(176, 190, 197);
+            toolStripStatusTime.ForeColor = System.Drawing.Color.FromArgb(138, 180, 248);
+
+            // TextBox and ComboBox Dark Theme
+            foreach (Control ctrl in groupBoxItemRegistration.Controls)
+            {
+                if (ctrl is TextBox)
+                {
+                    ctrl.BackColor = System.Drawing.Color.FromArgb(30, 30, 46);
+                    ctrl.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+                }
+                else if (ctrl is ComboBox)
+                {
+                    ctrl.BackColor = System.Drawing.Color.FromArgb(30, 30, 46);
+                    ctrl.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+                }
+                else if (ctrl is DateTimePicker)
+                {
+                    DateTimePicker dtp = (DateTimePicker)ctrl;
+                    dtp.CalendarMonthBackground = System.Drawing.Color.FromArgb(30, 30, 46);
+                    dtp.CalendarForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+                }
+            }
+
+            foreach (Control ctrl in groupBoxSupplierDetails.Controls)
+            {
+                if (ctrl is TextBox)
+                {
+                    ctrl.BackColor = System.Drawing.Color.FromArgb(30, 30, 46);
+                    ctrl.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+                }
+            }
+
+            // Search TextBox
+            txtSearch.BackColor = System.Drawing.Color.FromArgb(30, 30, 46);
+            txtSearch.ForeColor = System.Drawing.Color.FromArgb(224, 224, 224);
+
+            // Panel Search
+            panelSearch.BackColor = System.Drawing.Color.FromArgb(18, 18, 28);
         }
 
         private void InventoryForm_Load(object sender, EventArgs e)
@@ -77,7 +137,8 @@ namespace InventoryManagementSystem
                                     int quantity = Convert.ToInt32(row.Cells["Quantity"].Value);
                                     if (quantity < 10)
                                     {
-                                        row.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(255, 235, 235);
+                                        row.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(60, 20, 30);
+                                        row.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(239, 71, 111);
                                         row.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(192, 57, 43);
                                     }
                                 }

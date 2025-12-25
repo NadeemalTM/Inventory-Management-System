@@ -141,27 +141,27 @@ namespace InventoryManagementSystem
         // Login Button Mouse Enter Event
         private void btnLogin_MouseEnter(object sender, EventArgs e)
         {
-            btnLogin.BackColor = Color.FromArgb(52, 152, 219);
+            btnLogin.BackColor = Color.FromArgb(149, 96, 255);
         }
 
         // Login Button Mouse Leave Event
         private void btnLogin_MouseLeave(object sender, EventArgs e)
         {
-            btnLogin.BackColor = Color.FromArgb(41, 128, 185);
+            btnLogin.BackColor = Color.FromArgb(187, 134, 252);
         }
 
         // Close Button Mouse Enter Event
         private void btnClose_MouseEnter(object sender, EventArgs e)
         {
-            btnClose.BackColor = Color.FromArgb(231, 76, 60);
+            btnClose.BackColor = Color.FromArgb(239, 71, 111);
             btnClose.ForeColor = Color.White;
         }
 
         // Close Button Mouse Leave Event
         private void btnClose_MouseLeave(object sender, EventArgs e)
         {
-            btnClose.BackColor = Color.White;
-            btnClose.ForeColor = Color.FromArgb(231, 76, 60);
+            btnClose.BackColor = Color.FromArgb(18, 18, 28);
+            btnClose.ForeColor = Color.FromArgb(239, 71, 111);
         }
 
         // Form Load Event
@@ -180,10 +180,10 @@ namespace InventoryManagementSystem
         {
             Panel panel = (Panel)sender;
             ControlPaint.DrawBorder(e.Graphics, panel.ClientRectangle,
-                Color.FromArgb(189, 195, 199), 1, ButtonBorderStyle.Solid,
-                Color.FromArgb(189, 195, 199), 1, ButtonBorderStyle.Solid,
-                Color.FromArgb(189, 195, 199), 1, ButtonBorderStyle.Solid,
-                Color.FromArgb(189, 195, 199), 1, ButtonBorderStyle.Solid);
+                Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid,
+                Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid,
+                Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid,
+                Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid);
         }
 
         // PictureBox Logo Paint Event
@@ -197,8 +197,8 @@ namespace InventoryManagementSystem
             
             using (LinearGradientBrush brush = new LinearGradientBrush(
                 rect, 
-                Color.FromArgb(52, 152, 219), 
-                Color.FromArgb(41, 128, 185), 
+                Color.FromArgb(187, 134, 252), 
+                Color.FromArgb(106, 213, 166), 
                 LinearGradientMode.ForwardDiagonal))
             {
                 g.FillEllipse(brush, rect);

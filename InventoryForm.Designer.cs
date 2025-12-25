@@ -86,7 +86,7 @@ namespace InventoryManagementSystem
             // 
             // panelTop
             // 
-            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.panelTop.Controls.Add(this.linkLabelLogout);
             this.panelTop.Controls.Add(this.lblTitle);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -122,7 +122,7 @@ namespace InventoryManagementSystem
             // 
             // panelDashboard
             // 
-            this.panelDashboard.BackColor = System.Drawing.Color.White;
+            this.panelDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(28)))));
             this.panelDashboard.Controls.Add(this.panelCategories);
             this.panelDashboard.Controls.Add(this.panelTotalValue);
             this.panelDashboard.Controls.Add(this.panelLowStock);
@@ -137,7 +137,7 @@ namespace InventoryManagementSystem
             // 
             this.lblDashboardTitle.AutoSize = true;
             this.lblDashboardTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblDashboardTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblDashboardTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(180)))), ((int)(((byte)(248)))));
             this.lblDashboardTitle.Location = new System.Drawing.Point(10, 10);
             this.lblDashboardTitle.Name = "lblDashboardTitle";
             this.lblDashboardTitle.Size = new System.Drawing.Size(95, 21);
@@ -146,7 +146,7 @@ namespace InventoryManagementSystem
             // 
             // panelTotalItems
             // 
-            this.panelTotalItems.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.panelTotalItems.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(134)))), ((int)(((byte)(255)))));
             this.panelTotalItems.Controls.Add(this.lblTotalItemsValue);
             this.panelTotalItems.Controls.Add(this.lblTotalItems);
             this.panelTotalItems.Location = new System.Drawing.Point(20, 45);
@@ -177,7 +177,7 @@ namespace InventoryManagementSystem
             // 
             // panelLowStock
             // 
-            this.panelLowStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.panelLowStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(71)))), ((int)(((byte)(111)))));
             this.panelLowStock.Controls.Add(this.lblLowStockValue);
             this.panelLowStock.Controls.Add(this.lblLowStock);
             this.panelLowStock.Location = new System.Drawing.Point(320, 45);
@@ -208,7 +208,7 @@ namespace InventoryManagementSystem
             // 
             // panelTotalValue
             // 
-            this.panelTotalValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.panelTotalValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(214)))), ((int)(((byte)(160)))));
             this.panelTotalValue.Controls.Add(this.lblTotalValueAmount);
             this.panelTotalValue.Controls.Add(this.lblTotalValue);
             this.panelTotalValue.Location = new System.Drawing.Point(620, 45);
@@ -239,7 +239,7 @@ namespace InventoryManagementSystem
             // 
             // panelCategories
             // 
-            this.panelCategories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(89)))), ((int)(((byte)(182)))));
+            this.panelCategories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(134)))), ((int)(((byte)(252)))));
             this.panelCategories.Controls.Add(this.lblCategoriesValue);
             this.panelCategories.Controls.Add(this.lblCategories);
             this.panelCategories.Location = new System.Drawing.Point(920, 45);
@@ -283,7 +283,7 @@ namespace InventoryManagementSystem
             this.groupBoxItemRegistration.Controls.Add(this.lblItemName);
             this.groupBoxItemRegistration.Controls.Add(this.lblItemCode);
             this.groupBoxItemRegistration.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.groupBoxItemRegistration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.groupBoxItemRegistration.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(180)))), ((int)(((byte)(248)))));
             this.groupBoxItemRegistration.Location = new System.Drawing.Point(20, 220);
             this.groupBoxItemRegistration.Name = "groupBoxItemRegistration";
             this.groupBoxItemRegistration.Size = new System.Drawing.Size(420, 300);
@@ -362,7 +362,7 @@ namespace InventoryManagementSystem
             // 
             this.lblQuantity.AutoSize = true;
             this.lblQuantity.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblQuantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblQuantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.lblQuantity.Location = new System.Drawing.Point(20, 178);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(64, 17);
@@ -381,7 +381,7 @@ namespace InventoryManagementSystem
             // 
             this.lblUnitPrice.AutoSize = true;
             this.lblUnitPrice.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblUnitPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblUnitPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.lblUnitPrice.Location = new System.Drawing.Point(20, 223);
             this.lblUnitPrice.Name = "lblUnitPrice";
             this.lblUnitPrice.Size = new System.Drawing.Size(70, 17);
@@ -401,7 +401,7 @@ namespace InventoryManagementSystem
             // 
             this.lblDateAdded.AutoSize = true;
             this.lblDateAdded.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblDateAdded.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblDateAdded.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.lblDateAdded.Location = new System.Drawing.Point(20, 266);
             this.lblDateAdded.Name = "lblDateAdded";
             this.lblDateAdded.Size = new System.Drawing.Size(85, 17);
@@ -413,7 +413,7 @@ namespace InventoryManagementSystem
             this.groupBoxItemDetails.Controls.Add(this.dataGridViewInventory);
             this.groupBoxItemDetails.Controls.Add(this.panelSearch);
             this.groupBoxItemDetails.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.groupBoxItemDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.groupBoxItemDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(180)))), ((int)(((byte)(248)))));
             this.groupBoxItemDetails.Location = new System.Drawing.Point(460, 220);
             this.groupBoxItemDetails.Name = "groupBoxItemDetails";
             this.groupBoxItemDetails.Size = new System.Drawing.Size(820, 300);
@@ -453,7 +453,7 @@ namespace InventoryManagementSystem
             // 
             // btnRefresh
             // 
-            this.btnRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.btnRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(134)))), ((int)(((byte)(252)))));
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnRefresh.ForeColor = System.Drawing.Color.White;
@@ -467,7 +467,7 @@ namespace InventoryManagementSystem
             // 
             // btnExport
             // 
-            this.btnExport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.btnExport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(214)))), ((int)(((byte)(160)))));
             this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExport.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnExport.ForeColor = System.Drawing.Color.White;
@@ -501,7 +501,7 @@ namespace InventoryManagementSystem
             this.groupBoxSupplierDetails.Controls.Add(this.lblSupplierEmail);
             this.groupBoxSupplierDetails.Controls.Add(this.lblSupplier);
             this.groupBoxSupplierDetails.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.groupBoxSupplierDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.groupBoxSupplierDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(180)))), ((int)(((byte)(248)))));
             this.groupBoxSupplierDetails.Location = new System.Drawing.Point(20, 540);
             this.groupBoxSupplierDetails.Name = "groupBoxSupplierDetails";
             this.groupBoxSupplierDetails.Size = new System.Drawing.Size(420, 130);
@@ -521,7 +521,7 @@ namespace InventoryManagementSystem
             // 
             this.lblSupplier.AutoSize = true;
             this.lblSupplier.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblSupplier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblSupplier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.lblSupplier.Location = new System.Drawing.Point(20, 43);
             this.lblSupplier.Name = "lblSupplier";
             this.lblSupplier.Size = new System.Drawing.Size(62, 17);
@@ -540,7 +540,7 @@ namespace InventoryManagementSystem
             // 
             this.lblSupplierEmail.AutoSize = true;
             this.lblSupplierEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.lblSupplierEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.lblSupplierEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.lblSupplierEmail.Location = new System.Drawing.Point(20, 88);
             this.lblSupplierEmail.Name = "lblSupplierEmail";
             this.lblSupplierEmail.Size = new System.Drawing.Size(100, 17);
@@ -554,7 +554,7 @@ namespace InventoryManagementSystem
             this.groupBoxControlPanel.Controls.Add(this.btnUpdate);
             this.groupBoxControlPanel.Controls.Add(this.btnRegister);
             this.groupBoxControlPanel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.groupBoxControlPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.groupBoxControlPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(180)))), ((int)(((byte)(248)))));
             this.groupBoxControlPanel.Location = new System.Drawing.Point(460, 540);
             this.groupBoxControlPanel.Name = "groupBoxControlPanel";
             this.groupBoxControlPanel.Size = new System.Drawing.Size(820, 130);
@@ -564,7 +564,7 @@ namespace InventoryManagementSystem
             // 
             // btnRegister
             // 
-            this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(214)))), ((int)(((byte)(160)))));
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnRegister.ForeColor = System.Drawing.Color.White;
@@ -578,7 +578,7 @@ namespace InventoryManagementSystem
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(134)))), ((int)(((byte)(255)))));
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
@@ -592,7 +592,7 @@ namespace InventoryManagementSystem
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(71)))), ((int)(((byte)(111)))));
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
@@ -606,10 +606,10 @@ namespace InventoryManagementSystem
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(196)))), ((int)(((byte)(15)))));
+            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(10)))));
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
             this.btnClear.Location = new System.Drawing.Point(610, 50);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(160, 50);
@@ -646,7 +646,7 @@ namespace InventoryManagementSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(1300, 710);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.groupBoxControlPanel);
