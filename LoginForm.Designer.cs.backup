@@ -42,9 +42,78 @@ namespace InventoryManagementSystem
             this.btnLogin = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelRight.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.panelRight.SuspendLayout();
             this.panelPassword.SuspendLayout();
             this.panelUsername.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panelLeft
+            // 
+            this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.panelLeft.Controls.Add(this.lblVersion);
+            this.panelLeft.Controls.Add(this.lblCopyright);
+            this.panelLeft.Controls.Add(this.pictureBoxLogo);
+            this.panelLeft.Controls.Add(this.lblSubtitle);
+            this.panelLeft.Controls.Add(this.lblWelcome);
+            this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelLeft.Name = "panelLeft";
+            this.panelLeft.Size = new System.Drawing.Size(380, 600);
+            this.panelLeft.TabIndex = 0;
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.White;
+            this.lblVersion.Location = new System.Drawing.Point(30, 570);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(62, 13);
+            this.lblVersion.TabIndex = 4;
+            this.lblVersion.Text = "Version 2.0";
+            // 
+            // lblCopyright
+            // 
+            this.lblCopyright.AutoSize = true;
+            this.lblCopyright.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCopyright.ForeColor = System.Drawing.Color.White;
+            this.lblCopyright.Location = new System.Drawing.Point(30, 550);
+            this.lblCopyright.Name = "lblCopyright";
+            this.lblCopyright.Size = new System.Drawing.Size(131, 13);
+            this.lblCopyright.TabIndex = 3;
+            this.lblCopyright.Text = "© 2024 All Rights Reserved";
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Location = new System.Drawing.Point(115, 150);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(150, 150);
+            this.pictureBoxLogo.TabIndex = 2;
+            this.pictureBoxLogo.TabStop = false;
+            this.pictureBoxLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBoxLogo_Paint);
+            // 
+            // lblSubtitle
+            // 
+            this.lblSubtitle.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtitle.ForeColor = System.Drawing.Color.White;
+            this.lblSubtitle.Location = new System.Drawing.Point(30, 360);
+            this.lblSubtitle.Name = "lblSubtitle";
+            this.lblSubtitle.Size = new System.Drawing.Size(320, 80);
+            this.lblSubtitle.TabIndex = 1;
+            this.lblSubtitle.Text = "Manage your inventory efficiently with our modern and user-friendly system";
+            this.lblSubtitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblWelcome
+            // 
+            this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.ForeColor = System.Drawing.Color.White;
+            this.lblWelcome.Location = new System.Drawing.Point(30, 80);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(320, 50);
+            this.lblWelcome.TabIndex = 0;
+            this.lblWelcome.Text = "Welcome Back!";
+            this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panelRight
             // 
@@ -232,6 +301,9 @@ namespace InventoryManagementSystem
             this.Text = "Inventory Management System - Login";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panelRight.ResumeLayout(false);
+            this.panelLeft.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.panelRight.ResumeLayout(false);
             this.panelRight.PerformLayout();
             this.panelPassword.ResumeLayout(false);
             this.panelPassword.PerformLayout();
@@ -243,7 +315,13 @@ namespace InventoryManagementSystem
 
         #endregion
 
+        private System.Windows.Forms.Panel panelLeft;
         private System.Windows.Forms.Panel panelRight;
+        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Label lblSubtitle;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Label lblCopyright;
+        private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Panel panelUsername;

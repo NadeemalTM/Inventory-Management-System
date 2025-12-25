@@ -185,36 +185,5 @@ namespace InventoryManagementSystem
                 Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid,
                 Color.FromArgb(58, 58, 94), 1, ButtonBorderStyle.Solid);
         }
-
-        // PictureBox Logo Paint Event
-        private void pictureBoxLogo_Paint(object sender, PaintEventArgs e)
-        {
-            Graphics g = e.Graphics;
-            g.SmoothingMode = SmoothingMode.AntiAlias;
-
-            // Draw a modern logo - circular gradient with text
-            Rectangle rect = new Rectangle(10, 10, 130, 130);
-            
-            using (LinearGradientBrush brush = new LinearGradientBrush(
-                rect, 
-                Color.FromArgb(187, 134, 252), 
-                Color.FromArgb(106, 213, 166), 
-                LinearGradientMode.ForwardDiagonal))
-            {
-                g.FillEllipse(brush, rect);
-            }
-
-            // Draw icon/text in center
-            using (Font font = new Font("Segoe UI", 36, FontStyle.Bold))
-            {
-                string text = "IMS";
-                SizeF textSize = g.MeasureString(text, font);
-                PointF point = new PointF(
-                    rect.X + (rect.Width - textSize.Width) / 2,
-                    rect.Y + (rect.Height - textSize.Height) / 2);
-                
-                g.DrawString(text, font, Brushes.White, point);
-            }
-        }
     }
 }
